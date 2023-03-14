@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\xkhan\Dropbox\Vanderbilt\CIMlab\Michael\rocking_block\OpenSim\Ankle\AnkleBody.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\xkhan\Dropbox\Vanderbilt\CIMlab\Michael\rocking_block\OpenSim\Ankle\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2C16FA54-E66F-3C36-8A41-561E9B5053A1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
