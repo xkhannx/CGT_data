@@ -1,4 +1,4 @@
-clear; close all;
+% clear; close all;
 offset = 0.00113139;
 
 totals = [10, 10, 10, 5];
@@ -28,7 +28,7 @@ for fallMode = 1:3
     plot([0, 15.25], [47.236, 0], 'k--', 'LineWidth', 1.5);
 
     for fileInd = 1:totals(fallMode)
-        fileFolder = ['Mode', num2str(fallMode), '/', num2str(fileInd), '/'];
+        fileFolder = ['Mode', num2str(fallMode), '_new/', num2str(fileInd), '/'];
 
         posData = importdata([fileFolder, 'AnkleBody_BodyKinematics_pos_global.sto']);
         velData = importdata([fileFolder, 'AnkleBody_BodyKinematics_vel_global.sto']);
@@ -59,7 +59,7 @@ for fallMode = 1:3
             plot(com_ang(1), com_angvel(1), 'xk', 'LineWidth', 2);
         end
 
-        plot(com_ang, com_angvel, 'r');
+        plot(com_ang, com_angvel, col);
 
         if (fileInd == 9)
             subplot(2, 3, fallMode + 3); hold on; grid on;
@@ -76,7 +76,7 @@ for fallMode = 1:3
 end
 
 %%
-sizeInches = [7 6];
-res = 300;
-set(gcf,'paperunits','inches','paperposition',[0 0 sizeInches]);
-print('resized.tiff','-dtiff',['-r' num2str(res)]);
+% sizeInches = [7 6];
+% res = 300;
+% set(gcf,'paperunits','inches','paperposition',[0 0 sizeInches]);
+% print('resized.tiff','-dtiff',['-r' num2str(res)]);
