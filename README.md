@@ -1,8 +1,13 @@
 # Cold-Gas Thruster
 
 Cold-gas thruster (CGT) is intended as a backpack-wearable device, for purposes of arresting backward falls. This project is developed by CREATe Lab at Vanderbilt University. Please refer to the published papers on this project:
-- M. Finn-Henry, A. Baimyshev and M. Goldfarb, "Feasibility Study of a Fall Prevention Cold Gas Thruster," 2020 8th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), New York, NY, USA, 2020, pp. 611-616, doi: https://doi.org/10.1109/BioRob49111.2020.9224425.
-- Baimyshev, A., Finn-Henry, M., & Goldfarb, M. (2022). Feasibility of a Wearable Cold-Gas Thruster for Fall Prevention. Journal of Dynamic Systems, Measurement, and Control, 144(8), 084501, doi: https://doi.org/10.1115/1.4054529.
+Journal papers:
+- A. Baimyshev, M. Finn-Henry, and M. Goldfarb, "A supervisory controller intended to arrest dynamic falls with a wearable cold-gas thruster," Wearable Technologies, 4, E23, 2023. doi:10.1017/wtc.2023.18.
+- A. Baimyshev, M. Finn-Henry, and M. Goldfarb, "Feasibility of a Wearable Cold-Gas Thruster for Fall Prevention," J. Dyn. Sys., Meas., Control, vol. 144, no. 8, p. 084501, 2022, doi: 10.1115/1.4054529.
+Conference proceedings:
+- M. Finn-Henry, J. L. Brenes, A. Baimyshev and M. Goldfarb, "Preliminary Evaluation of a Wearable Thruster for Arresting Backwards Falls," 2023 IEEE International Conference on Robotics and Automation (ICRA), London, United Kingdom, 2023, pp. 12604-12609, doi: 10.1109/ICRA48891.2023.10160518.
+- M. Finn-Henry, A. Baimyshev, and M. Goldfarb, "Feasibility Study of a Fall Prevention Cold Gas Thruster," 2020 8th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob), 2020, pp. 611-616, doi: 10.1109/BioRob49111.2020.9224425.
+
 
 This repository contains the experiment and simulation data from the Cold-Gas Thruster project and the code used to process it. There are five folders here:
 
